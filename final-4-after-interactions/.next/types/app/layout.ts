@@ -1,4 +1,4 @@
-// File: /home/ajdin/Desktop/final-4-after-interactions/app/layout.js
+// File: /home/ajdin/Documents/repos/next-js-jonas/final-4-after-interactions/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

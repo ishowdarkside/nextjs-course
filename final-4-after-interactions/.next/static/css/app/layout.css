@@ -582,6 +582,9 @@ video {
 .mt-1 {
   margin-top: 0.25rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-24 {
   margin-top: 6rem;
 }
@@ -706,6 +709,9 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.gap-10 {
+  gap: 2.5rem;
+}
 .gap-12 {
   gap: 3rem;
 }
@@ -757,6 +763,9 @@ video {
 }
 .place-self-center {
   place-self: center;
+}
+.self-center {
+  align-self: center;
 }
 .rounded-full {
   border-radius: 9999px;
