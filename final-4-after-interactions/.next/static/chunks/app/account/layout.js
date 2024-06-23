@@ -82,8 +82,10 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   deleteReservation: function() { return /* binding */ deleteReservation; },
 /* harmony export */   signInAction: function() { return /* binding */ signInAction; },
-/* harmony export */   signoutAction: function() { return /* binding */ signoutAction; }
+/* harmony export */   signoutAction: function() { return /* binding */ signoutAction; },
+/* harmony export */   updateProfile: function() { return /* binding */ updateProfile; }
 /* harmony export */ });
 /* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/client/app-call-server */ "(app-pages-browser)/./node_modules/next/dist/client/app-call-server.js");
 /* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__);
@@ -95,9 +97,11 @@ function __build_action__(action, args) {
   return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
 }
 
-/* __next_internal_action_entry_do_not_use__ {"7461a2f4793986399650549a79523b20923f1735":"signInAction","eb199bfee4d345481a620b0821b7ec9c7f11050f":"signoutAction"} */ var signoutAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("eb199bfee4d345481a620b0821b7ec9c7f11050f");
+/* __next_internal_action_entry_do_not_use__ {"7461a2f4793986399650549a79523b20923f1735":"signInAction","996188be686272ca7e9068f27e358c4a5fdab9a3":"deleteReservation","e769eb680cab98dc968974d9198502f9baca0102":"updateProfile","eb199bfee4d345481a620b0821b7ec9c7f11050f":"signoutAction"} */ var deleteReservation = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("996188be686272ca7e9068f27e358c4a5fdab9a3");
 
 var signInAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("7461a2f4793986399650549a79523b20923f1735");
+var signoutAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("eb199bfee4d345481a620b0821b7ec9c7f11050f");
+var updateProfile = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("e769eb680cab98dc968974d9198502f9baca0102");
 
 
 

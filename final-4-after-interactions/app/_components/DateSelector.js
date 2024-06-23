@@ -24,8 +24,6 @@ function DateSelector({ settings, cabin, bookedDates }) {
   const numNights = 23;
   const cabinPrice = 23;
 
-  console.log(settings, bookedDates);
-
   // SETTINGS
   const { minBookingLength, maxBookingLength } = settings;
 

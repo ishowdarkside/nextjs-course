@@ -2,25 +2,59 @@
   "node": {
     "7461a2f4793986399650549a79523b20923f1735": {
       "workers": {
-        "app/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%5D%5D%5D&__client_imported__=!",
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!"
+        "app/account/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/edit/[reservationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/login/page": "rsc",
-        "app/account/page": "action-browser"
+        "app/account/profile/page": "action-browser",
+        "app/account/reservations/page": "action-browser",
+        "app/account/page": "action-browser",
+        "app/account/reservations/edit/[reservationId]/page": "action-browser"
       }
     },
     "eb199bfee4d345481a620b0821b7ec9c7f11050f": {
       "workers": {
-        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
-        "app/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%5D%5D%5D&__client_imported__=!"
+        "app/account/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/edit/[reservationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/account/profile/page": "action-browser",
+        "app/account/reservations/page": "action-browser",
         "app/account/page": "action-browser",
-        "app/login/page": "rsc"
+        "app/account/reservations/edit/[reservationId]/page": "action-browser"
+      }
+    },
+    "e769eb680cab98dc968974d9198502f9baca0102": {
+      "workers": {
+        "app/account/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/edit/[reservationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/account/profile/page": "action-browser",
+        "app/account/reservations/page": "action-browser",
+        "app/account/page": "action-browser",
+        "app/account/reservations/edit/[reservationId]/page": "action-browser"
+      }
+    },
+    "996188be686272ca7e9068f27e358c4a5fdab9a3": {
+      "workers": {
+        "app/account/profile/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/account/reservations/edit/[reservationId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fajdin%2FDocuments%2Frepos%2Fnext-js-jonas%2Ffinal-4-after-interactions%2Fapp%2F_lib%2Factions.js%22%2C%5B%22signInAction%22%2C%22deleteReservation%22%2C%22updateProfile%22%2C%22signoutAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/account/profile/page": "action-browser",
+        "app/account/reservations/page": "action-browser",
+        "app/account/reservations/edit/[reservationId]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "9qCDMfG5tDO3rolNyBcVOQ1bVUGBkmWPOtnYEKV8XpU="
+  "encryptionKey": "Kwp2IrlOHvyUI2km1jqkhd++8w0jQsE7g+s4sNtja2Y="
 }
